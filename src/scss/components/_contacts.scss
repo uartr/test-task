@@ -1,0 +1,94 @@
+.contacts {
+    width: 977px;
+    flex: 1 0 auto;
+    margin: 60px auto 25px;
+
+    &--h1 {
+        font-size: 30px;
+        text-decoration: none;
+        margin: 60px auto 25px;
+        padding-left: 16px;
+      }  
+  }
+  
+  
+
+  .contact {
+    display: center;
+    width: 977px;
+  
+    margin: 8px auto;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    transition: 0.4s;
+    
+      &:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+      }
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 68px;
+    font-size: 20px;
+    background: #FFF;
+    padding-top: 26px;
+    padding-bottom: 22px;
+    
+    transition: .4s;
+    
+      &--name {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        &__ico {
+          display: block;
+          height: 36px;
+          width:36px;
+          margin-left: 16px;
+        }
+          &__icon {
+            margin-left: 6px;
+            margin-right: -5px;
+            height: 50px;
+            width: 50px;
+          }
+        
+
+        &__text {
+          margin-left: 16px;
+        }
+        
+      }
+      
+      &--btn {
+          width: 115px;
+          height: 36px;
+          font-size: 16px;
+          margin-right: 16px;
+          padding-top: 8px;
+          border-radius: 5px;
+          text-align: center;
+          padding-top: 8px;
+        &:link,
+        &:visited {
+            background-color: #1367D7;
+            color: #FFF;
+            display: inline-block;
+            text-decoration: none;
+            transition: all .2s;
+        }
+    
+        &:hover {
+            background-color: #FFF;
+            color: #1367D7;
+            box-shadow: 0 1rem 2rem rgba(black, .15);
+            transform: translateY(-2px);
+        }
+    
+      }
+  }
+  

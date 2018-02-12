@@ -1,0 +1,56 @@
+$background-color: #213B82;
+$menu-color: #FFF;
+$menu-color-active: #A6B0CD;
+
+
+.header {
+    width: 100%;
+    position: fixed;
+    font-size: 14px;
+    height: 60px;
+    text-decoration: none;
+    background-color: $background-color;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--menu {
+        
+        margin: 0;
+        padding: 0;
+        margin-right: 131px;
+        display: flex;
+        justify-content: flex-start;
+        
+
+        &__li {
+            height: 100%;
+            list-style-type: none;
+            padding: 10px 20px;
+            
+            a {
+                color: $menu-color;
+                text-decoration: none;
+            
+                &:hover {
+                    color: $menu-color-active;
+                }
+            }
+
+
+        }
+    }
+
+
+    &--profile {
+        display: flex;
+        align-items: center;
+        margin-left: 150px;
+        &__name {
+            font-size: 16px;
+            color: #FFF;
+            padding-left: 10px;
+        }
+    }
+}
